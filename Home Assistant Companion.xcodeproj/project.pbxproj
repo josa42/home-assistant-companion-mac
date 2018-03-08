@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		808C29D42051331B0098C3FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808C29D32051331B0098C3FB /* AppDelegate.swift */; };
+		808C29D62051331B0098C3FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 808C29D52051331B0098C3FB /* Assets.xcassets */; };
+		808C29D92051331B0098C3FB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 808C29D72051331B0098C3FB /* MainMenu.xib */; };
+		808C29E52051331B0098C3FB /* Home_Assistant_CompanionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808C29E42051331B0098C3FB /* Home_Assistant_CompanionTests.swift */; };
+		808C29F02051331B0098C3FB /* Home_Assistant_CompanionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808C29EF2051331B0098C3FB /* Home_Assistant_CompanionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		808C29E12051331B0098C3FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 808C29C82051331B0098C3FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 808C29CF2051331B0098C3FB;
+			remoteInfo = "Home Assistant Companion";
+		};
+		808C29EC2051331B0098C3FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 808C29C82051331B0098C3FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 808C29CF2051331B0098C3FB;
+			remoteInfo = "Home Assistant Companion";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		808C29D02051331B0098C3FB /* Home Assistant Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Home Assistant Companion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		808C29D32051331B0098C3FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		808C29D52051331B0098C3FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		808C29D82051331B0098C3FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		808C29DA2051331B0098C3FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		808C29DB2051331B0098C3FB /* Home_Assistant_Companion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Home_Assistant_Companion.entitlements; sourceTree = "<group>"; };
+		808C29E02051331B0098C3FB /* Home Assistant CompanionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Home Assistant CompanionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		808C29E42051331B0098C3FB /* Home_Assistant_CompanionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_Assistant_CompanionTests.swift; sourceTree = "<group>"; };
+		808C29E62051331B0098C3FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		808C29EB2051331B0098C3FB /* Home Assistant CompanionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Home Assistant CompanionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		808C29EF2051331B0098C3FB /* Home_Assistant_CompanionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_Assistant_CompanionUITests.swift; sourceTree = "<group>"; };
+		808C29F12051331B0098C3FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		808C29CD2051331B0098C3FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808C29DD2051331B0098C3FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808C29E82051331B0098C3FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		808C29C72051331B0098C3FB = {
+			isa = PBXGroup;
+			children = (
+				808C29D22051331B0098C3FB /* Home Assistant Companion */,
+				808C29E32051331B0098C3FB /* Home Assistant CompanionTests */,
+				808C29EE2051331B0098C3FB /* Home Assistant CompanionUITests */,
+				808C29D12051331B0098C3FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		808C29D12051331B0098C3FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				808C29D02051331B0098C3FB /* Home Assistant Companion.app */,
+				808C29E02051331B0098C3FB /* Home Assistant CompanionTests.xctest */,
+				808C29EB2051331B0098C3FB /* Home Assistant CompanionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		808C29D22051331B0098C3FB /* Home Assistant Companion */ = {
+			isa = PBXGroup;
+			children = (
+				808C29D32051331B0098C3FB /* AppDelegate.swift */,
+				808C29D52051331B0098C3FB /* Assets.xcassets */,
+				808C29D72051331B0098C3FB /* MainMenu.xib */,
+				808C29DA2051331B0098C3FB /* Info.plist */,
+				808C29DB2051331B0098C3FB /* Home_Assistant_Companion.entitlements */,
+			);
+			path = "Home Assistant Companion";
+			sourceTree = "<group>";
+		};
+		808C29E32051331B0098C3FB /* Home Assistant CompanionTests */ = {
+			isa = PBXGroup;
+			children = (
+				808C29E42051331B0098C3FB /* Home_Assistant_CompanionTests.swift */,
+				808C29E62051331B0098C3FB /* Info.plist */,
+			);
+			path = "Home Assistant CompanionTests";
+			sourceTree = "<group>";
+		};
+		808C29EE2051331B0098C3FB /* Home Assistant CompanionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				808C29EF2051331B0098C3FB /* Home_Assistant_CompanionUITests.swift */,
+				808C29F12051331B0098C3FB /* Info.plist */,
+			);
+			path = "Home Assistant CompanionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		808C29CF2051331B0098C3FB /* Home Assistant Companion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 808C29F42051331B0098C3FB /* Build configuration list for PBXNativeTarget "Home Assistant Companion" */;
+			buildPhases = (
+				808C29CC2051331B0098C3FB /* Sources */,
+				808C29CD2051331B0098C3FB /* Frameworks */,
+				808C29CE2051331B0098C3FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Home Assistant Companion";
+			productName = "Home Assistant Companion";
+			productReference = 808C29D02051331B0098C3FB /* Home Assistant Companion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		808C29DF2051331B0098C3FB /* Home Assistant CompanionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 808C29F72051331B0098C3FB /* Build configuration list for PBXNativeTarget "Home Assistant CompanionTests" */;
+			buildPhases = (
+				808C29DC2051331B0098C3FB /* Sources */,
+				808C29DD2051331B0098C3FB /* Frameworks */,
+				808C29DE2051331B0098C3FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				808C29E22051331B0098C3FB /* PBXTargetDependency */,
+			);
+			name = "Home Assistant CompanionTests";
+			productName = "Home Assistant CompanionTests";
+			productReference = 808C29E02051331B0098C3FB /* Home Assistant CompanionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		808C29EA2051331B0098C3FB /* Home Assistant CompanionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 808C29FA2051331B0098C3FB /* Build configuration list for PBXNativeTarget "Home Assistant CompanionUITests" */;
+			buildPhases = (
+				808C29E72051331B0098C3FB /* Sources */,
+				808C29E82051331B0098C3FB /* Frameworks */,
+				808C29E92051331B0098C3FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				808C29ED2051331B0098C3FB /* PBXTargetDependency */,
+			);
+			name = "Home Assistant CompanionUITests";
+			productName = "Home Assistant CompanionUITests";
+			productReference = 808C29EB2051331B0098C3FB /* Home Assistant CompanionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		808C29C82051331B0098C3FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Josa Gesell";
+				TargetAttributes = {
+					808C29CF2051331B0098C3FB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					808C29DF2051331B0098C3FB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 808C29CF2051331B0098C3FB;
+					};
+					808C29EA2051331B0098C3FB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 808C29CF2051331B0098C3FB;
+					};
+				};
+			};
+			buildConfigurationList = 808C29CB2051331B0098C3FB /* Build configuration list for PBXProject "Home Assistant Companion" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 808C29C72051331B0098C3FB;
+			productRefGroup = 808C29D12051331B0098C3FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				808C29CF2051331B0098C3FB /* Home Assistant Companion */,
+				808C29DF2051331B0098C3FB /* Home Assistant CompanionTests */,
+				808C29EA2051331B0098C3FB /* Home Assistant CompanionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		808C29CE2051331B0098C3FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808C29D62051331B0098C3FB /* Assets.xcassets in Resources */,
+				808C29D92051331B0098C3FB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808C29DE2051331B0098C3FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808C29E92051331B0098C3FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		808C29CC2051331B0098C3FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808C29D42051331B0098C3FB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808C29DC2051331B0098C3FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808C29E52051331B0098C3FB /* Home_Assistant_CompanionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808C29E72051331B0098C3FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				808C29F02051331B0098C3FB /* Home_Assistant_CompanionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		808C29E22051331B0098C3FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 808C29CF2051331B0098C3FB /* Home Assistant Companion */;
+			targetProxy = 808C29E12051331B0098C3FB /* PBXContainerItemProxy */;
+		};
+		808C29ED2051331B0098C3FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 808C29CF2051331B0098C3FB /* Home Assistant Companion */;
+			targetProxy = 808C29EC2051331B0098C3FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		808C29D72051331B0098C3FB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				808C29D82051331B0098C3FB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		808C29F22051331B0098C3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		808C29F32051331B0098C3FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		808C29F52051331B0098C3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Home Assistant Companion/Home_Assistant_Companion.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3EK56EQ7C7;
+				INFOPLIST_FILE = "Home Assistant Companion/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.josagesell.Home-Assistant-Companion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		808C29F62051331B0098C3FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Home Assistant Companion/Home_Assistant_Companion.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3EK56EQ7C7;
+				INFOPLIST_FILE = "Home Assistant Companion/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.josagesell.Home-Assistant-Companion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		808C29F82051331B0098C3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3EK56EQ7C7;
+				INFOPLIST_FILE = "Home Assistant CompanionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.josagesell.Home-Assistant-CompanionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Home Assistant Companion.app/Contents/MacOS/Home Assistant Companion";
+			};
+			name = Debug;
+		};
+		808C29F92051331B0098C3FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3EK56EQ7C7;
+				INFOPLIST_FILE = "Home Assistant CompanionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.josagesell.Home-Assistant-CompanionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Home Assistant Companion.app/Contents/MacOS/Home Assistant Companion";
+			};
+			name = Release;
+		};
+		808C29FB2051331B0098C3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3EK56EQ7C7;
+				INFOPLIST_FILE = "Home Assistant CompanionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.josagesell.Home-Assistant-CompanionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Home Assistant Companion";
+			};
+			name = Debug;
+		};
+		808C29FC2051331B0098C3FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3EK56EQ7C7;
+				INFOPLIST_FILE = "Home Assistant CompanionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "de.josagesell.Home-Assistant-CompanionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Home Assistant Companion";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		808C29CB2051331B0098C3FB /* Build configuration list for PBXProject "Home Assistant Companion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808C29F22051331B0098C3FB /* Debug */,
+				808C29F32051331B0098C3FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		808C29F42051331B0098C3FB /* Build configuration list for PBXNativeTarget "Home Assistant Companion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808C29F52051331B0098C3FB /* Debug */,
+				808C29F62051331B0098C3FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		808C29F72051331B0098C3FB /* Build configuration list for PBXNativeTarget "Home Assistant CompanionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808C29F82051331B0098C3FB /* Debug */,
+				808C29F92051331B0098C3FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		808C29FA2051331B0098C3FB /* Build configuration list for PBXNativeTarget "Home Assistant CompanionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				808C29FB2051331B0098C3FB /* Debug */,
+				808C29FC2051331B0098C3FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 808C29C82051331B0098C3FB /* Project object */;
+}
