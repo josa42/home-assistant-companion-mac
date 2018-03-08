@@ -7,11 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79F9527459D4B84967CFE62C /* Pods_Home_Assistant_Companion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928CCA80EB5EB0AF94B0F828 /* Pods_Home_Assistant_Companion.framework */; };
+		801719E92051CA0800C0D8DB /* StateMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801719E82051CA0800C0D8DB /* StateMenuItem.swift */; };
+		801719EC2051D09F00C0D8DB /* PreferencesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801719EB2051D09F00C0D8DB /* PreferencesManager.swift */; };
+		801719F22051D57400C0D8DB /* PreferencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801719F02051D57400C0D8DB /* PreferencesViewController.swift */; };
+		801719F32051D57400C0D8DB /* PreferencesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 801719F12051D57400C0D8DB /* PreferencesView.xib */; };
 		808C29D42051331B0098C3FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808C29D32051331B0098C3FB /* AppDelegate.swift */; };
 		808C29D62051331B0098C3FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 808C29D52051331B0098C3FB /* Assets.xcassets */; };
 		808C29D92051331B0098C3FB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 808C29D72051331B0098C3FB /* MainMenu.xib */; };
 		808C29E52051331B0098C3FB /* Home_Assistant_CompanionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808C29E42051331B0098C3FB /* Home_Assistant_CompanionTests.swift */; };
 		808C29F02051331B0098C3FB /* Home_Assistant_CompanionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808C29EF2051331B0098C3FB /* Home_Assistant_CompanionUITests.swift */; };
+		8099030D2051397B00F0B119 /* HomeAssistantApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8099030C2051397B00F0B119 /* HomeAssistantApi.swift */; };
+		8099030E2051397B00F0B119 /* HomeAssistantApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8099030C2051397B00F0B119 /* HomeAssistantApi.swift */; };
+		809903112051456300F0B119 /* StateChangeEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809903102051456300F0B119 /* StateChangeEvent.swift */; };
+		809903122051456300F0B119 /* StateChangeEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809903102051456300F0B119 /* StateChangeEvent.swift */; };
+		80990315205145E400F0B119 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80990314205145E400F0B119 /* State.swift */; };
+		80990316205145E400F0B119 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80990314205145E400F0B119 /* State.swift */; };
+		8099031920514C1100F0B119 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8099031820514C1100F0B119 /* Entity.swift */; };
+		8099031A20514C1100F0B119 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8099031820514C1100F0B119 /* Entity.swift */; };
+		80AD6408206D7D4B008284E8 /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AD6407206D7D4B008284E8 /* Disposable.swift */; };
+		80AD640A206D8820008284E8 /* Eventable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AD6409206D8820008284E8 /* Eventable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		641D781A709345CC38487AFF /* Pods-Home Assistant Companion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Home Assistant Companion.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Home Assistant Companion/Pods-Home Assistant Companion.debug.xcconfig"; sourceTree = "<group>"; };
+		801719E82051CA0800C0D8DB /* StateMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateMenuItem.swift; sourceTree = "<group>"; };
+		801719EB2051D09F00C0D8DB /* PreferencesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesManager.swift; sourceTree = "<group>"; };
+		801719F02051D57400C0D8DB /* PreferencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesViewController.swift; sourceTree = "<group>"; };
+		801719F12051D57400C0D8DB /* PreferencesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreferencesView.xib; sourceTree = "<group>"; };
 		808C29D02051331B0098C3FB /* Home Assistant Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Home Assistant Companion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		808C29D32051331B0098C3FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		808C29D52051331B0098C3FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,6 +64,14 @@
 		808C29EB2051331B0098C3FB /* Home Assistant CompanionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Home Assistant CompanionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		808C29EF2051331B0098C3FB /* Home_Assistant_CompanionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_Assistant_CompanionUITests.swift; sourceTree = "<group>"; };
 		808C29F12051331B0098C3FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8099030C2051397B00F0B119 /* HomeAssistantApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAssistantApi.swift; sourceTree = "<group>"; };
+		809903102051456300F0B119 /* StateChangeEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateChangeEvent.swift; sourceTree = "<group>"; };
+		80990314205145E400F0B119 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		8099031820514C1100F0B119 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		80AD6407206D7D4B008284E8 /* Disposable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Disposable.swift; sourceTree = "<group>"; };
+		80AD6409206D8820008284E8 /* Eventable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eventable.swift; sourceTree = "<group>"; };
+		928CCA80EB5EB0AF94B0F828 /* Pods_Home_Assistant_Companion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Home_Assistant_Companion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE2A4275BD471A7F3213C98 /* Pods-Home Assistant Companion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Home Assistant Companion.release.xcconfig"; path = "Pods/Target Support Files/Pods-Home Assistant Companion/Pods-Home Assistant Companion.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79F9527459D4B84967CFE62C /* Pods_Home_Assistant_Companion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +100,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04BA690C9483B66ECD885129 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				641D781A709345CC38487AFF /* Pods-Home Assistant Companion.debug.xcconfig */,
+				FDE2A4275BD471A7F3213C98 /* Pods-Home Assistant Companion.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5CA658AB99408DECAD6D16B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				928CCA80EB5EB0AF94B0F828 /* Pods_Home_Assistant_Companion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		801719E52051B58600C0D8DB /* views */ = {
+			isa = PBXGroup;
+			children = (
+				801719E82051CA0800C0D8DB /* StateMenuItem.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		801719EA2051D08D00C0D8DB /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				801719EB2051D09F00C0D8DB /* PreferencesManager.swift */,
+				80AD6407206D7D4B008284E8 /* Disposable.swift */,
+				80AD6409206D8820008284E8 /* Eventable.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		801719ED2051D50E00C0D8DB /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				801719F02051D57400C0D8DB /* PreferencesViewController.swift */,
+				801719F12051D57400C0D8DB /* PreferencesView.xib */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
 		808C29C72051331B0098C3FB = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +151,8 @@
 				808C29E32051331B0098C3FB /* Home Assistant CompanionTests */,
 				808C29EE2051331B0098C3FB /* Home Assistant CompanionUITests */,
 				808C29D12051331B0098C3FB /* Products */,
+				04BA690C9483B66ECD885129 /* Pods */,
+				5CA658AB99408DECAD6D16B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +169,10 @@
 		808C29D22051331B0098C3FB /* Home Assistant Companion */ = {
 			isa = PBXGroup;
 			children = (
+				801719ED2051D50E00C0D8DB /* controllers */,
+				801719EA2051D08D00C0D8DB /* utils */,
+				801719E52051B58600C0D8DB /* views */,
+				808C29FD205133310098C3FB /* api */,
 				808C29D32051331B0098C3FB /* AppDelegate.swift */,
 				808C29D52051331B0098C3FB /* Assets.xcassets */,
 				808C29D72051331B0098C3FB /* MainMenu.xib */,
@@ -121,6 +200,41 @@
 			path = "Home Assistant CompanionUITests";
 			sourceTree = "<group>";
 		};
+		808C29FD205133310098C3FB /* api */ = {
+			isa = PBXGroup;
+			children = (
+				8099030F2051454300F0B119 /* models */,
+				8099030C2051397B00F0B119 /* HomeAssistantApi.swift */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		8099030F2051454300F0B119 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				8099031720514BEA00F0B119 /* base */,
+				809903132051456900F0B119 /* events */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		809903132051456900F0B119 /* events */ = {
+			isa = PBXGroup;
+			children = (
+				809903102051456300F0B119 /* StateChangeEvent.swift */,
+			);
+			path = events;
+			sourceTree = "<group>";
+		};
+		8099031720514BEA00F0B119 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				8099031820514C1100F0B119 /* Entity.swift */,
+				80990314205145E400F0B119 /* State.swift */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -128,9 +242,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 808C29F42051331B0098C3FB /* Build configuration list for PBXNativeTarget "Home Assistant Companion" */;
 			buildPhases = (
+				2F3813CE60F10A47141D3FA0 /* [CP] Check Pods Manifest.lock */,
 				808C29CC2051331B0098C3FB /* Sources */,
 				808C29CD2051331B0098C3FB /* Frameworks */,
 				808C29CE2051331B0098C3FB /* Resources */,
+				B36A635398EEE9D61ADDED2A /* [CP] Embed Pods Frameworks */,
+				D951AF3980E6FE0DC0D4E56B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,6 +347,7 @@
 			files = (
 				808C29D62051331B0098C3FB /* Assets.xcassets in Resources */,
 				808C29D92051331B0098C3FB /* MainMenu.xib in Resources */,
+				801719F32051D57400C0D8DB /* PreferencesView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,12 +367,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2F3813CE60F10A47141D3FA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Home Assistant Companion-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B36A635398EEE9D61ADDED2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Home Assistant Companion/Pods-Home Assistant Companion-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Home Assistant Companion/Pods-Home Assistant Companion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D951AF3980E6FE0DC0D4E56B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Home Assistant Companion/Pods-Home Assistant Companion-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		808C29CC2051331B0098C3FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				801719E92051CA0800C0D8DB /* StateMenuItem.swift in Sources */,
+				8099030D2051397B00F0B119 /* HomeAssistantApi.swift in Sources */,
 				808C29D42051331B0098C3FB /* AppDelegate.swift in Sources */,
+				801719F22051D57400C0D8DB /* PreferencesViewController.swift in Sources */,
+				801719EC2051D09F00C0D8DB /* PreferencesManager.swift in Sources */,
+				809903112051456300F0B119 /* StateChangeEvent.swift in Sources */,
+				80AD640A206D8820008284E8 /* Eventable.swift in Sources */,
+				80AD6408206D7D4B008284E8 /* Disposable.swift in Sources */,
+				80990315205145E400F0B119 /* State.swift in Sources */,
+				8099031A20514C1100F0B119 /* Entity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +443,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8099030E2051397B00F0B119 /* HomeAssistantApi.swift in Sources */,
 				808C29E52051331B0098C3FB /* Home_Assistant_CompanionTests.swift in Sources */,
+				809903122051456300F0B119 /* StateChangeEvent.swift in Sources */,
+				80990316205145E400F0B119 /* State.swift in Sources */,
+				8099031920514C1100F0B119 /* Entity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +594,7 @@
 		};
 		808C29F52051331B0098C3FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 641D781A709345CC38487AFF /* Pods-Home Assistant Companion.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Home Assistant Companion/Home_Assistant_Companion.entitlements";
@@ -425,6 +611,7 @@
 		};
 		808C29F62051331B0098C3FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDE2A4275BD471A7F3213C98 /* Pods-Home Assistant Companion.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Home Assistant Companion/Home_Assistant_Companion.entitlements";
